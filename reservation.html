@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html> 
+	<head>	 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+		<script src=" https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+		<link href="reservation.css" rel="stylesheet">
+	<script src="reservation.js"></script> 
+	</head> 
+	<body> 
+		<div class="container"> 
+			<h1>Assignment Task : Railway Reservation</h1>
+			<center>
+			<form action="" name="registration"> 
+				<table id="reservation">
+				<tr>
+					<td><label for="firstname">First Name :</label></td>
+					<td><input type="text" name="firstname" id="firstname" placeholder="Navneet" /></td>
+				</tr>
+				<tr>
+					<td><label for="lastname">Last Name :</label></td>
+					<td><input type="text" name="lastname" id="lastname" placeholder="Tyagi" /></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email :</label></td>
+					<td><input type="email" name="email" id="email" placeholder="tyagibijnor@gmail.com" /></td>
+				</tr>
+				<tr>
+					<td><label for="password">Password :</label></td>
+					<td><input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" /> </td> 
+				</tr>
+				<tr>
+					<td><label for="age">Age :</label></td>
+					<td><input type="text" name="age" id="age" placeholder="Enter Age" required max="60" /></td>
+				</tr>
+				<tr>
+					<td><label for="source">Source :</label></td>
+					<td><input type="text" name="source" id="source" placeholder="Enter Boarding Details" required/></td> 
+				</tr>
+				<tr>
+					<td><label for="dest">Destination :</label></td>
+					<td><input type="dest" name="dest" id="dest" placeholder="Enter Destination" required/></td> 
+				</tr>
+				<tr>
+					<td><label for="tnum"> Train Number :</label></td>
+					<td> <input type="tnum" name="tnum" id="tnum" placeholder="Enter Train number" required/> </td></tr></table>
+				<button id="button" type="submit">Submit</button> 
+			</form> </center> 
+			</div> 
+			</body> 
+			</html>

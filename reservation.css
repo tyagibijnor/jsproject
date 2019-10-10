@@ -1,0 +1,27 @@
+/*css for Railway Reservation Form*/
+h1 {  font-size: 20px; color: blue; font-weight: solid; text-align: center; } 
+#reservation {
+  border-collapse: collapse;background: #ffffcc;
+  width: 50%;
+}
+#reservation td{
+  border: 1px solid #ddd;
+ }
+#reservation tr:nth-child(even){background-color: #e6ffcc;}
+#reservation tr:hover {background-color: #ddd;}
+#button { 
+	background: #ccffff; 
+	padding: 5px; 
+	font-weight: solid;
+	text-align: center;
+	color:  #1a1aff; 
+	font-size: 16px; 
+	transition-duration: .5s;
+	margin-top: 15px; }
+#button:hover { 
+	background: #ffffff;
+	color: #00cc00;
+	cursor: pointer; }
+.error {
+  color: #F00;  
+} 
